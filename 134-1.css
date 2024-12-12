@@ -1,0 +1,169 @@
+body{
+    background: rgb(246, 190, 190);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(230, 230, 245);
+}
+#texo{
+    color: #ffe3da;
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#sim {
+    border: 0;
+    border-radius: 2vw;
+    color: rgb(230, 230, 245);
+    background: rgba(247, 59, 59, 0.984);
+    height: 7vw;
+    width: 12vw;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    width: 15vw;
+
+}
+#nao {
+    border: 0;
+    border-radius: 2vw;
+    color: rgb(230, 230, 245);
+    background: rgba(247, 59, 59, 0.984);
+    height: 7vw;
+    width: 12vw;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 30%;
+    width: 15vw;
+}
+#diva {
+    background: #db3c3c;
+    border: 0;
+    border-radius: 5vw;
+    height: 20vw;
+    width: 35vw;
+    position: relative;
+    top: 35%;
+    left: 33%;
+}
+#texo2 {
+    color: #ffe3da;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    top: 6%;
+    left: 6%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo3 {
+    color: #ffe3da;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#butaofeliz{
+    border: 0;
+    border-radius: 2vw;
+    color: rgb(230, 230, 245);
+    background: #1a5394fb;
+    height: 7vw;
+    width: 12vw;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 15%;
+    width: 30vw;
+}
+#butaotriste{
+    border: 0;
+    border-radius: 2vw;
+    color: rgb(230, 230, 245);
+    background: #1a5394fb;
+    height: 7vw;
+    width: 12vw;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    width: 30vw;
+}
+#emojitriste{
+    font-size: 15vw;
+    top: 100%;
+    text-align: center;
+}
+#butao1 {
+    display: flex;
+    border: 0;
+    border-radius: 2vw;
+    color: rgb(230, 230, 245);
+    background: #fb3e6afb;
+    text-align: center;
+    position: absolute; /* Usamos position absolute para controlar a posição */
+    top: 50%; /* Alinha verticalmente ao centro da tela */
+    left: 50%; /* Alinha horizontalmente ao centro da tela */
+    transform: translate(-50%, -50%); /* Ajusta o centro exato com base no próprio tamanho */
+    height: 4vw;
+    width: 8vw;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    #emojidesconfiado {
+    height: 4vw;
+    width: 8vw;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50vw;
+    top: 20vw;
+}
+@media(max-width : 767px){
+    #diva{
+        width: 90vw;
+        height: 150vw;
+        left: 10px;
+        top: 10px;
+    }
+    #texo2{
+        top: 8px;
+    }
+    #butao1{
+        width: 30vw;
+        height: 15vw;
+        top: 165vw;
+    }
+    #sim{
+        height: 8vw;
+        width: 15vw;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 20px;
+    }
+    #nao{
+        height: 8vw;
+        width: 15vw;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 20px;
+    }
+    #titulo3 {
+        font-size: 10vw;
+        text-align: center;
+    }
+    #butaofeliz{
+        position: absolute;
+        left: 15%;
+        width: 30vw;
+        height: 15vw;
+    }
+    #butaotriste{
+        position: absolute;
+        left: 50%;
+        width: 30vw;
+        height: 15vw;
+    }
+}
+
